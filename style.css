@@ -1,0 +1,23 @@
+/* 给div盒子定义高度、宽度以及背景颜色 */
+div {
+    width: 230px;
+    height: 320px;
+    background-color: rgb(113, 113, 118);
+}
+
+/* 给<a>链接转换为块级元素然后修饰 */
+a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    line-height: 45px;
+    text-indent: 2em;
+}
+
+a:hover {
+    background-color: rgb(247, 123, 41);
+}
+
+a:active {
+    color: black;
+}
